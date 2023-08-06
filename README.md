@@ -92,6 +92,12 @@ During the evaluation of the three agents, following scores were reached by the 
   <img src="https://github.com/Qusay99/train_Lunar_Lander/blob/main/diagrams/Eval_DDQN_Agent.png" align="center" width=50% height=35%>
 </p>
 
+## Review
+
+Looking at the graphs shown, it can be observed that the DQN agent shows a better performance than the DDQN agent during the training. However, in both cases an improvement of the curve can be observed, which does not show any further increases after a certain epoch.
+The DQN and DDQN agents have shown promising performance in the LunarLander v2 environment. However, there are several opportunities for further investigation and improvement. For example, fine-tuning the hyperparameters can have a significant impact on the efficiency of the agents, and performing a comprehensive hyperparameter search has the potential to produce better results
+
+
 ## Sources
 - https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
 - https://github.com/fschur/DDQN-with-PyTorch-for-OpenAI-Gym/blob/master/DDQN_discrete.py
