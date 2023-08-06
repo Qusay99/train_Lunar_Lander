@@ -27,7 +27,7 @@ Here are the main steps involved in the process:
 
 12. Visualize the training progress: The code plots the scores achieved during training to visualize the performance improvement over episodes.
 
-13. Save the trained models: The trained models (DQN and DDQN) are saved to disk as checkpoint files.
+13. Save the trained models: The trained models (DQN and DDQN) will be saved after finishing the training of each agent.
 
 14. Test the agents: The code loads the trained models and tests the agents by running episodes in the environment.
 
