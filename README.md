@@ -52,7 +52,45 @@ You can modify the hyperparameters for training the agents in the train_agents.p
 - GAMMA: Discount factor for calculating the target Q-values.
 - TAU: Soft update parameter for updating the target network in DDQN.
 - LR: Learning rate for the Q-network optimizer.
-- UPDATE_EVERY: Frequency of updating the Q-network.
+- UPDATE_EVERY: Frequency of updating the Q-network. 
+
+### Performance of agents
+
+During the training of the agents, following performance was measured:
+
+**Random Agent**
+<p align="center">
+  <img src="https://github.com/Qusay99/train_Lunar_Lander/blob/main/diagrams/randomAgent_perf.png" align="center" width=50% height=35%>
+</p>
+
+**DQN Agent**
+<p align="center">
+  <img src="https://github.com/Qusay99/train_Lunar_Lander/blob/main/diagrams/DQNAgent_perf.png" align="center" width=50% height=35%>
+</p>
+
+**DDQN Agent**
+<p align="center">
+  <img src="https://github.com/Qusay99/train_Lunar_Lander/blob/main/diagrams/DDQNAgent_perf.png" align="center" width=50% height=35%>
+</p>
+
+### Evaluation
+
+During the evaluation of the three agents, following scores were reached by the agents:
+
+**Random Agent**
+<p align="center">
+  <img src="https://github.com/Qusay99/train_Lunar_Lander/blob/main/diagrams/Eval_random_Agent.png" align="center" width=50% height=35%>
+</p>
+
+**DQN Agent**
+<p align="center">
+  <img src="https://github.com/Qusay99/train_Lunar_Lander/blob/main/diagrams/Eval_DQN_Agent.png" align="center" width=50% height=35%>
+</p>
+
+**DDQN Agent**
+<p align="center">
+  <img src="https://github.com/Qusay99/train_Lunar_Lander/blob/main/diagrams/Eval_DDQN_Agent.png" align="center" width=50% height=35%>
+</p>
 
 ## Sources
 - https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
