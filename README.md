@@ -56,4 +56,11 @@ You can modify the hyperparameters for training the agents in the train_agents.p
 
 ## Sources
 - https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
+- https://github.com/fschur/DDQN-with-PyTorch-for-OpenAI-Gym/blob/master/DDQN_discrete.py
+- https://pylessons.com/LunarLander-v2-PPO
 - https://www.katnoria.com/nb_dqn_lunar/
+- https://deeplearning.neuromatch.io/projects/ReinforcementLearning/lunar_lander.html
+- https://wingedsheep.com/lunar-lander-dqn/
+- https://shiva-verma.medium.com/solving-lunar-lander-openaigym-reinforcement-learning-785675066197
+- https://github.com/lazavgeridis/LunarLander-v2/tree/main
+- https://goodboychan.github.io/python/reinforcement_learning/pytorch/udacity/2021/05/07/DQN-LunarLander.html
